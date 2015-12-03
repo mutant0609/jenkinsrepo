@@ -1,5 +1,5 @@
-#!/path/to/python/virtualenv
-#!/usr/bin/env python3
+
+#!/usr/bin/python3.4
 #import numpy as np
 import csv
 import re
