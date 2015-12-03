@@ -1,5 +1,5 @@
 
-#!JENKINS_HOME python3
+#!/usr/bin/env python
 #import numpy as np
 import csv
 import re
