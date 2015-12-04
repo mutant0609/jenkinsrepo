@@ -6,7 +6,7 @@ import re
 import sys
 import os
 import json
-import pandas
+import pandas as pd
 import pprint
 import collections
 import json
@@ -41,7 +41,7 @@ class Myobject:
 #print(x.entered_by['id'])
 #os.getcwd()
 
-surveys_df = pandas.read_csv("data1.csv")
+surveys_df = pd.read_csv("data1.csv")
 head=surveys_df.columns
 length = head.__len__()
 #print(length)
