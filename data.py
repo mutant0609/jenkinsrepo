@@ -11,7 +11,6 @@ import pprint
 import collections
 import json
 from collections import OrderedDict
-reload(pandas)
 
 payload = []
 mylist = []
