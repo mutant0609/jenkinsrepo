@@ -41,7 +41,7 @@ class Myobject:
 #print(x.entered_by['id'])
 #os.getcwd()
 
-surveys_df = pd.read_csv("data5.csv")
+surveys_df = pd.read_csv("data1.csv")
 head=surveys_df.columns
 length = head.__len__()
 #print(length)
@@ -59,7 +59,7 @@ for st in head:
 workpath=os.path.dirname(os.path.abspath(__file__))
 
 
-with open(os.path.join(workpath,'data5.csv'), 'r') as data:
+with open(os.path.join(workpath,'data1.csv'), 'r') as data:
 	incsv = csv.reader(data)
 	next(incsv)
 	for line in incsv:
